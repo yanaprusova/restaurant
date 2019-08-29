@@ -24,13 +24,21 @@ namespace SinemaAdviser
                 Console.WriteLine( "*Салат с мидиями" );
                 Console.WriteLine( "*Карпаччо из осьминога с поке из авокадо и томатов" );
             }
-            if (menu == "основные блюда " )
+            if (menu == "основные блюда" )
             {
                 Console.WriteLine( "В таком случае рекомендую Вам:" );
                 Console.WriteLine( "*Суп Минестроне" );
                 Console.WriteLine( "*Равиоли" );
                 Console.WriteLine( "*Ризотто" );
                 Console.WriteLine( "*Лазанья" );
+            }
+            if (menu == "напитки")
+            {
+                Console.WriteLine("В таком случае рекомендую Вам:");
+                Console.WriteLine("*Беллини");
+                Console.WriteLine("*Граппа");
+                Console.WriteLine("*Женепи");
+                Console.WriteLine("*Апероль");
             }
 
             Console.ReadLine();
